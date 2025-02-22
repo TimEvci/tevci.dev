@@ -1,10 +1,19 @@
+---
+import { SITE } from "@/consts";
+---
+
 <section>
   <article class="space-y-4">
     <p class="animate">
-      I come packed with full type safety, a sitemap, an rss feed, markdown and
-      mdx support (use components in your markdown) through astro integrations.
-      I am styled with tailwind and come preconfigured with light, dark and
-      system/os theme preferences out of the box.
+      I am a freelance software engineer based in Antalya, Turkey. I specialize
+      in building web applications and websites using modern technologies. I
+      will be taking on new projects starting in May 2025.
     </p>
+    <a
+      href={`mailto:${SITE.EMAIL}`}
+      class="text-sm no-underline w-fit flex px-3 py-1.5 flex-nowrap rounded-sm border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
+    >
+      Get in touch
+    </a>
   </article>
 </section>
